@@ -57,15 +57,15 @@ var z = parseFloat(document.getElementById('z').value);
       y0 = x0*sin(gamma + t + x0/12)/se;
       
 //coordinates
-      // x1 = x0*cos(beta) - y0*sin(beta);
-      // y1 = x0*sin(beta) + y0*cos(beta);
-
-document.getElementById('5').addEventListener('click', function(){
-  consol.log("5 clicked");
-      x1 = x0*cos(beta) - y0*sin(gamma);
+      x1 = x0*cos(beta) - y0*sin(beta);
       y1 = x0*sin(beta) + y0*cos(beta);
 
-});   
+// document.getElementById('5').addEventListener('click', function(){
+//   consol.log("5 clicked");
+//       x1 = x0*cos(beta) - y0*sin(gamma);
+//       y1 = x0*sin(beta) + y0*cos(beta);
+
+// });   
 // document.getElementById('4').addEventListener('click', function(){
 //   consol.log("4 clicked");
 //       x1 = x0*cos(beta) - y0*cos(beta);
