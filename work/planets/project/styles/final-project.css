@@ -1,0 +1,182 @@
+body{
+    background-color: #1c1c1c;
+}
+
+h4, h5 {
+    font-family: Courier;
+    color:#C4A000;
+}
+h5{
+    margin-top:-15px;
+}
+
+#orbits {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#sun {
+    stroke: #666;
+    fill: #C4A000;
+}   
+
+.tool{
+    height:auto;
+    width:11em;
+    background-color:#1F414D;
+    color:#EDDB0E;
+    padding:10px;
+    font-family: Courier;
+    font-weight: 400;
+    border:double 3px #DE4A00;
+    cursor:default;
+}  
+
+.orbit {
+    fill: none;
+    stroke-dasharray:2.5;
+    opacity:0.5;
+}   
+
+.moon {
+    stroke: #00A0C4;
+    fill: #00A0C4;
+}  
+
+.moon:hover {
+    stroke: #78BA27;
+    stroke-width: 2px;
+    fill: #0EEDCF;
+} 
+
+.planet {
+    stroke: #78BA27;
+    fill: #78BA27;
+    z-index:95;
+}   
+
+.planet:hover {
+    stroke: #C4A000;
+    stroke-width: 3px;
+    fill: #DE4A00;
+} 
+
+footer{
+    color:#C4A000;
+    text-transform: uppercase;
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size:70%;
+    width:13em;  
+ }
+
+ a {
+    color:#C4A000;
+ }
+
+.p_line{ 
+    stroke:#C4A000; 
+    stroke-width: 1px;  
+}
+
+.m_line{ 
+    stroke:#78BA27; 
+    stroke-width: 1px;  
+}
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+body.correct {
+  background-color:#EBE8DD;
+  color:#00336E;
+  background-blend-mode: multiply;
+
+}
+
+span{
+    font-weight:600;
+    font-style: italic;
+}
+body.correct header h2{
+    border:none;
+    text-align:right;
+    letter-spacing:1px;
+    color:#DBBE16;
+}
+article{
+    width:80%;
+    margin-left:3em;
+}
+article p{
+    width:70%;
+    margin-left:2em;
+}
+h3{
+    margin-left:2em;
+    color:#E86C00;
+}
+h1{
+    color:#DBBE16;
+}
+
+footer{
+    color:#E86C00;
+    text-transform: uppercase;
+    bottom:0;
+    font-size:70%;
+    width:13em;
+    
+ }
+img{width:20em;
+    margin-left:3em;
+    margin-top:1em;
+    margin-bottom:1em;
+
+ }
+
+a {
+    color:#DBBE16;
+}
