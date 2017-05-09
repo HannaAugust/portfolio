@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas Experiment</title>
+    <style>
+    body {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background: hsla(280, 95%, 5%, 1);
+}
+#menu {
+  color:#fff;
+  position: absolute;
+  top:12em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#u{
+  color:#fff;
+  position: absolute;
+  top:4em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#y{
+  color:#fff;
+  position: absolute;
+  top:6em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#x{
+  color:#fff;
+  position: absolute;
+  top:8em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+
+#z{
+  color:#fff;
+  position: absolute;
+  top:10em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#w{
+  color:#fff;
+  position: absolute;
+  top:12em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#n{
+  color:#fff;
+  position: absolute;
+  top:14em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#m{
+  color:#fff;
+  position: absolute;
+  top:16em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#p{
+  color:#fff;
+  position: absolute;
+  top:18em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+#left{
+  color:#fff;
+  position: absolute;
+  top:16em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+.button{
+  cursor:pointer;
+}
+footer{
+  color:#fff;
+  position: absolute;
+  top:20em;
+  left:2em;
+  font-family:Helvetica;
+  opacity:0.4;
+  transition: 2s ease;
+  cursor:pointer;
+}
+footer a{
+  color:#fff;
+}
+    </style>
+  </head>
+
+  <body>
+<!--    <canvas id="ce" width="800" height="800" style="position: absolute; z-index: 0">
+    </canvas> -->
+    <canvas id="webgl" width="800" height="800" style="position: absolute; z-index: 1">
+   
+
+ </canvas>
+       <input type = "range" id="u"  min="0.1" max="10" step='.1' style="z-index: 2">
+  <input type = "range"  id="y" min="1" max="15" step='0.5' value = "1" style="z-index: 2">
+  <input type = "range" id="x"   min="0" max="10" step='.1' value = "2" style="z-index: 2">
+  <input type = "range" id ="z"  min="0.1" max="10" step='.1' style="z-index: 2">
+  <input type = "range" id ="w"  min="0" max="720" step='1' style="z-index: 2">
+<!--     <input type = "range" id="n"   min="1" max="10" step='.1' value = "2" style="z-index: 2">
+  <input type = "range" id ="m"  min="1" max="10" step='.1' style="z-index: 2"> -->
+
+<!-- <div id= "menu"> -->
+  <button class = "button" id="5" style="z-index: 5">5</button>
+    <button class = "button" id="4" style="z-index: 5">4</button>
+      <button class = "button" id="3" style="z-index: 5">3</button>
+<!--       <div class = "button" id="2">2</div>
+      <div class = "button" id="1">1</div>
+      <div class = "button" id="0">0</div> -->
+<!-- </div> -->
+<footer></footer>
+<!--     <script src="../main.js"></script> -->
+  <script src="three.js"></script>
+  <script src="RequestAnimationFrame.js"></script>
+  <script src="jquery.min.js"></script>
+<!--     <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script> -->
+    <script src="canvas.js"></script>
+  </body>
+</html>

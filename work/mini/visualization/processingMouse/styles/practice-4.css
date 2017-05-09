@@ -1,0 +1,70 @@
+/* Stylesheet For Particular Projects */
+
+
+svg{height:50em;
+  margin-left:5%;
+	}
+.clock path, .clock circle, .clock line{
+	fill:none;
+    stroke:#8F2800;     
+  	stroke-dasharray: 1000;
+  	stroke-dashoffset: 1000;
+  	animation: dash 13s 3s  forwards;
+}
+
+.sign path{
+	fill:none;
+    stroke:#8F2800;     
+  	stroke-dasharray: 1000;
+  	stroke-dashoffset: 1000;
+  	animation: dashs 20s 13s  forwards;
+}
+.tree path {
+	fill:none;
+    stroke:#8F2800;     
+  	stroke-dasharray: 1000;
+  	stroke-dashoffset: 1000;
+  	animation: dashs 67s 10s  forwards;
+}
+
+@keyframes dashs {
+  to {
+  	fill:;
+    stroke-dashoffset: 0;
+    stroke-width:0.8;
+  	}
+}
+@keyframes dash {
+  to {
+    fill:;
+    stroke-dashoffset: 0;
+    stroke-width:1;
+    }
+}
+
+body.correct {
+  background-color:#171717;
+}
+canvas{
+  width:100%;
+  height:auto;
+  margin:0;
+  border:solid 1px #777777;
+}
+
+footer{
+  color:#777777;
+    text-transform: uppercase;
+    position:fixed;
+    bottom:0;
+    font-size:70%;
+    width:13em;
+    right:0;
+  }
+footer a{
+  color:#777777;
+}
+
+p{
+  color:white;
+}

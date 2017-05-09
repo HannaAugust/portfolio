@@ -1,0 +1,118 @@
+body {
+/*	  -webkit-animation: background 15s cubic-bezier(1,0,0,1) infinite;
+  animation: background 15s cubic-bezier(1,0,0,1) infinite; 
+  transition: background 5s ease-in-out; */
+  background-color:#333333;
+	margin: 0px;
+	overflow: hidden;
+}
+
+/*@-webkit-keyframes background {
+  0% { background-color: #00153a; }
+  33% { background-color: #003a2e; }  
+  67% { background-color: #2c3a00; }
+  100% { background-color: #5b0300; }
+  transition: background 5s ease-in-out; 
+}
+
+@keyframes background {
+  0% { background-color: #00153a; }
+  33% { background-color: #003a2e; }  
+  67% { background-color: #2c3a00; }
+  100% { background-color: #5b0300; }
+  transition: background 5s ease-in-out; 
+}*/
+#stats{
+	position: absolute;
+	top: 0;
+}
+#name{
+	color:#fff;
+	position: absolute;
+	top:0.1em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+
+#u{
+	color:#fff;
+	position: absolute;
+	top:4em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+#y{
+	color:#fff;
+	position: absolute;
+	top:6em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+#x{
+	color:#fff;
+	position: absolute;
+	top:8em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+
+#z{
+	color:#fff;
+	position: absolute;
+	top:10em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+#w{
+	color:#fff;
+	position: absolute;
+	top:12em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+#left{
+	color:#fff;
+	position: absolute;
+	top:16em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+footer{
+	color:#fff;
+	position: absolute;
+	top:20em;
+	left:2em;
+	font-family:Helvetica;
+	opacity:0.4;
+	transition: 2s ease;
+	cursor:pointer;
+}
+footer a{
+	color:#fff;
+}
+#name:hover{
+	opacity:1;
+	transition: 2s ease;
+	cursor:pointer;
+}
