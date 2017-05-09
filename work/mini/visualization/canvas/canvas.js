@@ -66,17 +66,17 @@ document.getElementById('5').addEventListener('click', function(){
       y1 = x0*sin(beta) + y0*cos(beta);
 
 });   
-document.getElementById('4').addEventListener('click', function(){
-  consol.log("4 clicked");
-      x1 = x0*cos(beta) - y0*cos(beta);
-      y1 = x0*sin(beta) + y0*cos(beta);
+// document.getElementById('4').addEventListener('click', function(){
+//   consol.log("4 clicked");
+//       x1 = x0*cos(beta) - y0*cos(beta);
+//       y1 = x0*sin(beta) + y0*cos(beta);
 
-});
-document.getElementById('3').addEventListener('click', function(){
-  consol.log("3 clicked");
-      x1 = x0*cos(beta) - y0*sin(beta);
-      y1 = x0*sin(beta) + y0*cos(beta);  
-});
+// });
+// document.getElementById('3').addEventListener('click', function(){
+//   consol.log("3 clicked");
+//       x1 = x0*cos(beta) - y0*sin(beta);
+//       y1 = x0*sin(beta) + y0*cos(beta);  
+// });
 
 //move it to the position of arc 
       ctx.moveTo(x1,y1);
