@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+@-webkit-keyframes wiggle {
+    0% { -webkit-transform: skewX(-24deg); } 
+    10% { -webkit-transform: skewX(8deg); }
+    20% { -webkit-transform: skewX(-55deg); }
+    30% { -webkit-transform: skewX(-75deg); }
+    40% { -webkit-transform: skewX(-90deg); }
+    50% { -webkit-transform: skewX(75deg); }
+    60% { -webkit-transform: skewX(-50deg); }
+    70% { -webkit-transform: skewX(-30deg); }
+    80% { -webkit-transform: skewX(1deg); }
+    90% { -webkit-transform: skewX(30deg); }
+    100% { -webkit-transform: skewX(0deg); }
+}
+
+* {padding:0;margin:0;}
+
+html {width:100%;height:100%;}
+
+body { 
+  width:100%;
+  height:100%;
+  background:#fff;
+  color:#fff;
+  font-family:'Montserrat',sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+header {
+  display:flex;
+}
+
+h1:hover {
+  -webkit-animation: wiggle 1s;
+}
+
+h1 {
+  position:relative;
+  font-family:'Montserrat';
+  font-weight:normal;
+  font-size:8em;
+  text-align:center;
+  cursor:pointer;
+  color:white;
+  transition:all ease-in-out 1s;
+  text-shadow:1px 1px rgba(246, 0, 153,0.6),
+             -1px -1px rgba(15, 210, 255,0.6),
+             -1px 0px rgba(255, 210, 0, 0.6),
+             1px 1px rgba(246, 0, 153,0.6),
+             -1px -1px rgba(15, 210, 255,0.6),
+             -1px 0px rgba(255, 210, 0, 0.6);
+}
+
+h1:hover {
+
+  transition:all ease-in-out 0.5s;
+  text-shadow:290px 103px rgba(246, 0, 153,0.2),
+             -108px -14px rgba(15, 210, 255,0.2),
+             42px -254px rgba(255, 210, 0, 0.2),
+             -60px 52px rgba(246, 0, 153,0.2),
+             72px 15px rgba(15, 210, 255,0.2),
+             130px 290px rgba(255, 210, 0, 0.2);
+
+}
