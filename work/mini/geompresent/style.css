@@ -101,39 +101,140 @@ z-index:99;
 
 
 * {
-  font-family: 'Lato', sans-serif;
+/*  font-family: 'Open Sans', sans-serif;*/
   font-weight: 300;
   -webkit-transition: all .1s ease;
   transition: all .1s ease;
 }
 
 html, body {
+  margin:0;
   height: 100%;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight:500;
+  color:#fff;
 }
+h1 span {
+  font-size: 60px;
+  font-family: 'Agency FB';
+  color:#b7f259;
+}
+
 
 .page-section {
   height: auto;
-  width: 50%;
-  margin-left: 35%;
-  margin-top: 5%;
-  padding: 3em;
-  background: -webkit-linear-gradient(45deg, #43cea2 10%, #185a9d 90%);
-  background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%);
+  width: 80vw;
+  margin-left: 25vw;
+ font-family: 'Open Sans', sans-serif;
+  padding: 3vw;
+  background-color:#2b5170;
+  background-color:#2b5170;
   color: white;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
+.testing{
+  color:#f4425c;
+}
+
+.darker{
+  height: auto;
+  width: 80vw;
+  margin-left: 25vw;
+ font-family: 'Open Sans', sans-serif;
+  padding: 3vw;
+  background-color:#0d3556;
+  background-color:#0d3556;
+  color: white;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.light{
+    height: auto;
+  width: 80vw;
+  margin-left: 25vw;
+ font-family: 'Open Sans', sans-serif;
+  padding: 3vw;
+  background-color:#eee;
+  background-color:#eee;
+  color: #151a3b;
+
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.proto{
+  color:#323333;
+  background-color:#0ed2d6;
+  padding:2em;
+  transition:1s;
+  margin-bottom:3em;
+
+}
+.proto a{
+  font-family: 'Agency FB';
+  text-decoration:none;
+  font-weight:600;
+  color:#323333;
+  transition:1s;
+}
+.proto:hover{
+  color:#70f4da;
+  background-color:#9df9df;
+  padding:2em;
+  transition:1s;
+}
+.proto a:hover{
+letter-spacing: 2px;
+  transition:1s;
+}
+
+
+.light h1{
+    color: #151a3b;
+}
+
+.page-section p{
+  width:50vw;
+}
+ul{
+  display:inline;
+  height:3em;
+}
+
+.page-section li{
+  list-style: none;
+   display:inline;
+
+height:3em;
+}
+.page-section li a{
+
+text-decoration: none;
+}
+
+button{
+  width:7em;
+  height:7em;
+}
 .navigation {
+  height: 100vh;
   position: fixed;
-  width: 30%;
-  margin-left: 2%;
-  background-color: #999;
+  width: 20vw;
+ font-family: 'Agency FB';
+  background-color: #151a3b;
+  padding:3vw;
   color: #fff;
 }
+
+.navigation h3{
+  color:white;
+  font-size:30px;
+}
+
+
 .navigation__link {
   display: block;
   color: #ddd;
@@ -142,9 +243,11 @@ h1 {
   font-weight: 400;
 }
 .navigation__link:hover {
-  background-color: #aaa;
+  letter-spacing: 2px;
+ /* background-color: #aaa;*/
 }
 .navigation__link.active {
-  color: white;
+  color:#b7f259;
+ 
   background-color: rgba(0, 0, 0, 0.1);
 }
