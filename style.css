@@ -1,24 +1,11 @@
-/*html, body {
-    height: 100%;
-    margin: 0;
-    font-size: 20px;
-}
-#left {
-    width: 15%;
-    height: 100%;
-    position: fixed;
-   
-    background: #ECE8EF;
-}
-#right {
-    width: 85%;
-    height: auto;
-    position: absolute;
-    right: 0;
-    background: #fff;
-  
 
-}*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+.content{
+  width:100vw;
+    height: 100vw;
+    padding: 5em;
+}
 
 .Grid {
   display: flex;
@@ -588,7 +575,9 @@ opacity:0;
 
 #close{
   visibility:hidden;
- margin-left:70vw;
+position:fixed;
+top:2em;
+right:2em;
  z-index:99;
    opacity:0;
    transition:1s ease;
@@ -599,7 +588,6 @@ opacity:0;
   cursor: pointer;
 }*/
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 @-webkit-keyframes wiggle {
     0% { -webkit-transform: skewX(-24deg); } 
