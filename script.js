@@ -61,6 +61,17 @@ var buttons11 = document.getElementsByClassName("st11");
 var fifth = document.getElementById("fifth");
 var buttons13 = document.getElementsByClassName("st13");
 var buttons14 = document.getElementsByClassName("st14");
+var seven = document.getElementById("seven");
+var buttons16 = document.getElementsByClassName("st16");
+var buttons17 = document.getElementsByClassName("st17");
+
+var eight = document.getElementById("eight");
+var buttons19 = document.getElementsByClassName("st19");
+var buttons20 = document.getElementsByClassName("st20");
+var nine = document.getElementById("nine")
+var buttons22 = document.getElementsByClassName("st22");
+var buttons23 = document.getElementsByClassName("st23");
+
 
 var pathes = document.getElementsByTagName("path");
 
@@ -160,6 +171,72 @@ for(var i = 0; i < buttons14.length; ++i){
 
 
 
+seven.onmouseover = function() {
+for(var i = 0; i < buttons16.length; ++i){
+
+         buttons16[i].setAttribute("stroke", "url(#grad2)");
+
+        buttons16[i].classList.toggle('anim');
+        console.log("over");
+
+
+
+    }
+for(var i = 0; i < buttons17.length; ++i){
+
+        buttons17[i].setAttribute("stroke", "url(#grad1)");
+        buttons17[i].classList.toggle('anim');
+        console.log("over");
+    }
+
+
+ }
+
+
+eight.onmouseover = function() {
+for(var i = 0; i < buttons19.length; ++i){
+
+         buttons19[i].setAttribute("stroke", "url(#grad2)");
+
+        buttons19[i].classList.toggle('anim');
+        console.log("over");
+
+
+
+    }
+for(var i = 0; i < buttons20.length; ++i){
+
+        buttons20[i].setAttribute("stroke", "url(#grad1)");
+        buttons20[i].classList.toggle('anim');
+        console.log("over");
+    }
+
+
+ }
+
+
+nine.onmouseover = function() {
+for(var i = 0; i < buttons22.length; ++i){
+
+         buttons22[i].setAttribute("stroke", "url(#grad2)");
+
+        buttons22[i].classList.toggle('anim');
+        console.log("over");
+
+
+
+    }
+for(var i = 0; i < buttons23.length; ++i){
+
+        buttons23[i].setAttribute("stroke", "url(#grad1)");
+        buttons23[i].classList.toggle('anim');
+        console.log("over");
+    }
+
+
+ }
+
+
 var lightbox = document.getElementById("lightbox");
 var close = document.getElementById("close");
 var refract = document.getElementById("refract");
@@ -231,7 +308,7 @@ close.style.opacity = "1";
  })
 
 
-var seven = document.getElementById("seven")
+
   var evil= document.getElementById("evil");
 seven.addEventListener('click', function(){
 console.log("clicked");
@@ -243,7 +320,9 @@ evil.style.opacity = "1";
 close.style.opacity = "1";
  })
 
-var eight = document.getElementById("eight")
+
+
+
   var geometry= document.getElementById("geometry");
 eight.addEventListener('click', function(){
 console.log("clicked");
@@ -255,7 +334,7 @@ geometry.style.opacity = "1";
 close.style.opacity = "1";
  })
 
-var nine = document.getElementById("nine")
+
   var connection= document.getElementById("connection");
 nine.addEventListener('click', function(){
 console.log("clicked");
@@ -303,17 +382,17 @@ macy.style.opacity = "1";
 close.style.opacity = "1";
  })
 
-var thirteen = document.getElementById("thirteen")
-  var black= document.getElementById("black");
-thirteen.addEventListener('click', function(){
-console.log("clicked");
-lightbox.style.visibility = "visible";
-black.style.visibility = "visible";
-close.style.visibility = "visible";
-lightbox.style.opacity = "1";
-black.style.opacity = "1";
-close.style.opacity = "1";
- })
+// var thirteen = document.getElementById("thirteen")
+//   var black= document.getElementById("black");
+// thirteen.addEventListener('click', function(){
+// console.log("clicked");
+// lightbox.style.visibility = "visible";
+// black.style.visibility = "visible";
+// close.style.visibility = "visible";
+// lightbox.style.opacity = "1";
+// black.style.opacity = "1";
+// close.style.opacity = "1";
+//  })
 
 
  close.addEventListener('click', function(){
@@ -333,7 +412,7 @@ connection.style.visibility = "hidden";
 teatime.style.visibility = "hidden";
 alisa.style.visibility = "hidden";
 macy.style.visibility = "hidden";
-black.style.visibility = "hidden";
+// black.style.visibility = "hidden";
 
 mvem.style.opacity = "0";
 refract.style.opacity = "0";
@@ -347,7 +426,7 @@ connection.style.opacity = "0";
 teatime.style.opacity = "0";
 alisa.style.opacity = "0";
 macy.style.opacity = "0";
-black.style.opacity = "0";
+// black.style.opacity = "0";
 
 lightbox.style.opacity = "0";
 close.style.opacity = "0";
@@ -444,3 +523,20 @@ var glitchImg = function() {
 var randInt = function(a, b) {
   return ~~(Math.random() * (b - a) + a);
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,68 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-
+body{
+  overflow-x:hidden;
+}
 .content{
-  width:100vw;
-    height: 100vw;
+
+  width:80vw;
+    height: 80vw;
     padding: 5em;
+    text-align: left;
+    z-index:50;
+}
+.agency{
+  font-family:'Agency FB';
+  font-weight:600;
+}
+.role {
+ width:30vw;
+  font-size:20px;
+  font-family: Tw Cen MT;
+font-weight:500;
+}
+.describe {
+  font-size:20px;
+  font-family: Tw Cen MT;
+width:30vw;
+
+}
+.content a{
+  font-family:'Agency FB';
+  color:#333;
+  padding:1em;
+  margin-top:2em;
+margin-right:1em;
+font-weight:600;
+text-decoration: none;
+background-color:#eee;
+}
+.links{
+  padding-top:2em;
+}
+.content a:hover{
+  font-family:'Agency FB';
+  color:#333;
+text-decoration: underline;
+
+}
+.nexttodo{
+  font-size:20px;
+  font-family:Tw Cen MT;
+
+  width:60vw;
+  height:auto;
+  margin-top:1em;
+  padding-bottom:1em;
+}
+.process{
+  font-size:20px;
+  font-family:Tw Cen MT;
+
+  width:40vwvw;
+  height:auto;
+  margin-top:1em;
+  padding-bottom:1em;
 }
 
 .Grid {
@@ -267,7 +325,7 @@ position:fixed;
 } 
  ul {
 /*  overflow: auto;*/
-margin-left:20vw;
+margin-left:35vw;
 padding-top:0.5em;
   list-style-type: none;
 }
@@ -320,7 +378,7 @@ padding-top:0.5em;
 
 
 .projects{
-
+padding-top:3em;
     height:100vh;
 /*visibility:hidden;*/
 /*opacity:0;*/
@@ -338,8 +396,13 @@ padding-top:3em;
     height:100vh;
 /*visibility:hidden;*/
 /*opacity:0;*/
+padding:3em;
+padding-top:7em;
     transition:1s ease;
 
+}
+.about h2{
+  text-align: center;
 }
 .resume{
 
@@ -365,7 +428,12 @@ padding-top:3em;
 
 
 
-
+.down{
+  margin-top:-6em;
+}
+.down:hover{
+  margin-top:-6em;
+}
 
 
 
@@ -427,6 +495,10 @@ padding-top:3em;
   overflow-y:hidden;
   visibility:hidden;
   position:fixed;
+/*  height:1800px;
+overflow-y:scroll;*/
+overflow-x:hidden;
+
   top:0;
   left:0;
   background-color:#fff;
@@ -436,6 +508,45 @@ padding-top:3em;
   z-index:97;
   opacity:0;
    transition:1s ease;
+}
+iframe {    
+overflow:hidden;
+
+}
+
+
+
+
+
+
+
+
+
+.right{
+
+  height: auto;
+  width: 40vw;
+  height:100vh;
+  margin-left: 35vw;
+ font-family: 'Open Sans', sans-serif;
+}
+.narrow {
+    width: 30vw;
+  height:100vh;
+  margin-left: 53vw;
+}
+.left{
+
+
+ height: 80vh;
+  position: fixed;
+  width: 30vw;
+ font-family: 'Agency FB';
+ 
+
+}
+.wide{
+    width: 50vw;
 }
 
 #refract{
@@ -571,7 +682,16 @@ opacity:0;
 
 
 
+h2{
+  padding:1em;
 
+    color:#a3a3a3;
+    font-family:'Agency FB';
+    font-size:1.5em;
+text-transform:uppercase;
+    text-align:center;
+
+}
 
 #close{
   visibility:hidden;
@@ -583,10 +703,18 @@ right:2em;
    transition:1s ease;
 
 }
+button svg{
+  width:1em;
 
-/*.st0{
-  cursor: pointer;
-}*/
+
+}
+button {
+  height:2em;
+    width:2em;
+    background-color:#fff;
+  border:none;
+  cursor:pointer;
+}
 
 
 @-webkit-keyframes wiggle {
@@ -645,3 +773,239 @@ h1 span:hover {
   top: 0;
   left: 0;
 }
+
+
+.aboutme{
+  text-align:center;
+  width:50vw;
+  margin-left:20vw;
+   margin-bottom:3vw;
+    font-size:20px;
+  font-family: Tw Cen MT;
+  line-height: 25px;
+}
+.cvbutt{
+
+  margin-top:5em;
+
+}
+ a .cvbutt {
+  width:1em;
+ margin-left:44vw;
+  font-family:'Agency FB';
+  color:#333;
+
+padding:3em;
+font-weight:600;
+text-decoration: none;
+background-color:#eee;
+}
+a{text-decoration: none;}
+
+.cvbutt a:hover{
+  font-family:'Agency FB';
+  color:#333;
+text-decoration: underline;
+
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+ul .expertise{
+  width:50vw;
+  margin-bottom:3em;
+}
+
+@media only screen 
+and (min-device-width: 623px) 
+and (max-device-height: 768px) 
+and (min-resolution: 192dpi)
+and (-webkit-device-pixel-ratio:2)
+and (orientation : portrait) 
+
+{
+  ul{margin-left:10vw;}
+
+#global li{
+  border:none;
+  padding:1em;
+  padding-right: 1em;
+    font-size: 5px;;
+}
+
+}
+
+
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+/*html, body {
+  min-height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}*/
+
+/*#credit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 5;
+  background: rgba(255,255,255,.8);
+}*/
+
+/*.pen {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 0 0 2px #fff, inset 0 0 0 2px #fff;
+  transition: opacity .5s;
+  opacity: .7;
+}
+body:active .pen {
+  opacity: .2;
+}
+
+.guide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  border-top: 1px solid rgba(0,0,0,.2);
+  width: 1000px;
+  height: 1px;
+  transform-origin: 0 0;
+  transition: opacity .5s;
+  pointer-events: none;
+}
+#masterCanvas {
+ /* position: absolute;*/
+/*  top: -99999px;
+  left: -99999px;
+}*/
+#masterCanvas canvas.fg {
+  display: none;
+}
+#masterCanvas.test {
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: scale(.2);
+}
+#masterCanvas.test canvas {
+  display: block;
+  border: 1px solid red;
+}
+
+
+#canvases .canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 1000px;
+  width: 2000px;
+  margin-top: -500px;
+  margin-left: -1000px;
+  z-index: 3;
+}
+#canvases canvas {
+  position: absolute;
+  z-index: 3;
+}
+#canvases .canvas .fg {
+  z-index: 5;
+  cursor: none;
+  opacity: 0;
+}
+
+.settings  {
+/*  position: absolute;*/
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+  background: rgba(255,255,255,.8);
+}
+.settings * {
+  margin: 10px 0 10px 10px;
+  float: left;
+  font-size: .8rem;
+  line-height: 1em;
+  cursor: default;
+  outline: 0;
+  color: #000;
+}
+.settings > div {
+  margin: 0;
+  position: relative;
+}
+.settings div span {
+  margin: 0;
+/*  position: absolute;*/
+  top: -.8em;
+  font-size: .8em;
+  min-width: 100%;
+  background: rgba(255,255,255,.8);
+  padding: 4px 0 4px 10px;
+}
+input[type=number] {
+  width: 3rem;
+  padding: 0 0 0 5px;
+  font-size: 1.7em;
+  border-width: 1px;
+}
+.jscolor {
+  width: 3.8rem;
+  text-indent: -99999px;
+  padding: 0 0 5px;
+  font-size: 1.7em;
+  border-width: 1px;
+}
+input[type=checkbox] {
+  margin-top: 1.7em;
+  margin-left: 20px;
+}
+.settings label {
+  z-index: 2;
+  position: relative;
+  line-height: 1.45em;
+  padding: 10px 10px 10px 30px;
+  margin: 10px 0 10px -25px;
+}
+.settings button,
+.settings a {
+  line-height: 1.45em;
+  padding: 10px 10px;
+}
+.settings button:hover,
+.settings a:hover {
+  background: rgba(0,0,0,.1);
+  color: #000;
+}
+.settings input:hover {
+  background: rgba(0,0,0,.1);
+}
+.settings label:hover {
+  background: rgba(0,0,0,.1);
+}
+.hiddenDownload,
+.hiddenColor,
+.hiddenSize {
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+
+@media (max-width: 501px) {
+  .settings > * {
+    clear: left;
+  }
+}*/
